@@ -1,0 +1,140 @@
+styles.css
+
+
+h1 {
+    color: #333;
+    font-family: 'Roca', sans-serif;
+    
+}
+
+body {
+    font-family: Manrope, sans-serif;
+    background-color: #f0f0f0!important;
+    color: #000000;
+}
+
+
+.main-header {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 16px 42px;
+    align-items: center;
+    border-radius: 10px;  
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Manrope, sans-serif;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0 auto;
+   
+}
+
+
+.main-nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Manrope, sans-serif;
+    padding: 0 16px;
+}
+
+.main-nav a:hover {
+    color: #ccc;
+} 
+
+body p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Manrope, sans-serif;
+}
+
+body p a {
+    color: #3AA8FF;
+    text-decoration: none;
+}
+
+body p a:hover {
+    color: #6ec0ff;
+}
+
+#intro {
+    color: #252323;
+    font-size: 24px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 38.40px;
+    word-wrap: break-word
+}
+
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto; 
+    padding: 0; 
+    text-align: center;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0; 
+    gap: 16px;
+    align-items: center;    
+}
+
+.project-section-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;    
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.project-section button {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 150px;
+    width: 150px;
+}  
+
+#hero-video {
+    background-color: #e60000;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    min-width: 280px;
+    max-width: 380px;
+    min-height: 380px;
+    max-height: 800px;
+}
+
+
